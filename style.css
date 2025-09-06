@@ -24,8 +24,8 @@ body {
   position: absolute;
   top: 60%;
   background-color: rgba(36, 37, 37, 0.825);
-  padding: 48px;
-  width: 500px;
+  padding: 62px;
+  width: 600px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -43,4 +43,5 @@ body {
   font-family: "Lato", sans-serif;
   border: none;
   border-radius: 8px;
+
 }
