@@ -1,0 +1,46 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 100%;
+  background: url(./boasvindas_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.container_mensg{
+  position: absolute;
+  top: 60%;
+  background-color: rgba(36, 37, 37, 0.825);
+  padding: 48px;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  color: white;
+}
+.buttonMensg{
+  width: 200px;
+  padding: 8px;
+  background-color: rgb(36, 37, 37);
+  color: white;
+  font-family: "Lato", sans-serif;
+  border: none;
+  border-radius: 8px;
+}
